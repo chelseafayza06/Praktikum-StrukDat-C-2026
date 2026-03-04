@@ -1,7 +1,9 @@
 #Soal1
-thislist = [15, 50, 75, 30, 25, 40, 100]
+thislist = [15, 50, 75, 30, 25, 40,]
 
-thislist.sort()
+thislist.append(100)
+
+thislist.sort(reverse=True)
 print(thislist)
 
 rata_rata = sum(thislist) / len(thislist)
@@ -28,8 +30,8 @@ print("Harga barang:", harga)
 tim_frontend = {"HTML", "CSS", "JavaScript", "React"}
 tim_backend = {"Python", "JavaScript", "SQL","NodeJS"}
 
-irisan = tim_frontend.intersection(tim_backend)
-backend_only = tim_backend.difference(tim_frontend)
+irisan = tim_frontend & tim_backend
+backend_only = tim_backend - tim_frontend
 union_skill = tim_frontend | tim_backend
 
 print(f"Irisan: {irisan}")
@@ -43,6 +45,7 @@ nilai_siswa = {
     "S03": {"nama": "Sheila", "tugas": 70, "uts": 65, "uas": 70}
 }
 
+# cara nambah dictionary baru 
 nilai_siswa["S04"] = {
     "nama": "Fafa",
     "tugas": 85,
