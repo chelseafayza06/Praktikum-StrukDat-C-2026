@@ -110,3 +110,11 @@ for x in list2:
   list1.append(x)
 
 print(list1)
+
+registrasi_gadget = {
+   "merk" : "asus",
+   "tipe" : "yoga",
+   "harga": 3000000,
+   "sn"   : 12345
+}
+

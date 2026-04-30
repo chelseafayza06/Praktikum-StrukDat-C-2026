@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # a
+=======
+# a 
+>>>>>>> fe3d8a2 (ngepush)
 stok_barang = [15, 40, 30, 10, 25]
 stok_barang[3]= 50
 
