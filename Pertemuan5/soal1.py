@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # a
 =======
 # a 
 >>>>>>> fe3d8a2 (ngepush)
+=======
+# a 
+>>>>>>> fe3d8a2f021245269fedb68b917aab8c793f0c36
 stok_barang = [15, 40, 30, 10, 25]
 stok_barang[3]= 50
 

@@ -43,6 +43,7 @@ myStack.push('https:chelsea//.id')
 myStack.push('https:sande//.id')
 myStack.push('https:fira//.id')
 
+<<<<<<< HEAD
 # print("LinkedList: ", end="")
 # #myStack.traverseAndPrint()
 # print("Peek: ", myStack.peek())
@@ -51,3 +52,13 @@ myStack.push('https:fira//.id')
 # #myStack.traverseAndPrint()
 # print("isEmpty: ", myStack.is_empty())
 # print("Size: ", myStack.size())
+=======
+print("LinkedList: ", end="")
+myStack.traverseAndPrint()
+print("Peek: ", myStack.peek())
+print("Pop: ", myStack.pop())
+print("LinkedList after Pop: ", end="")
+myStack.traverseAndPrint()
+print("isEmpty: ", myStack.is_empty())
+print("Size: ", myStack.size())
+>>>>>>> fe3d8a2f021245269fedb68b917aab8c793f0c36
