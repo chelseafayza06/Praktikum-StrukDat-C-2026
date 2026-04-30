@@ -40,7 +40,7 @@ def get_leaf_nodes(node):
     return get_leaf_nodes(node.left) + get_leaf_nodes(node.right)
 
 
-# === Build Tree ===
+# membuat Tree 
 A = Node("A")
 B = Node("B")
 C = Node("C")
@@ -55,7 +55,7 @@ B.right = E
 C.right = F
 
 
-# === Output ===
+# Output 
 print("SISTEM AUDIT DISTRIBUSI 'CEPAT SAMPAI'")
 print("======================================")
 print("[INFO] Membangun Struktur Gudang...")
