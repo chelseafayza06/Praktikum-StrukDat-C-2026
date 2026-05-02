@@ -13,11 +13,9 @@ class StackList:
         if self.is_empty():
             return "Riwayat kosong"
         return self.items.pop()
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> fe3d8a2f021245269fedb68b917aab8c793f0c36
+
+
     def peek(self):
         if self.is_empty():
             return None
@@ -31,22 +29,4 @@ myStack = StackList()
 myStack.push('https:chelsea.id')
 myStack.push('https:sande.id')
 myStack.push('https:fira.id')
-
-<<<<<<< HEAD
-#print("Stack: ", myStack.items)
-# print("Pop: ", myStack.pop())
-# print("Stack after Pop: ", myStack.items)
-# print("Peek: ", myStack.peek())
-# print("isEmpty: ", myStack.is_empty())
-# print("Size: ", myStack.size())
-
-=======
-print("Stack: ", myStack.items)
-print("Pop: ", myStack.pop())
-print("Stack after Pop: ", myStack.items)
-print("Peek: ", myStack.peek())
-print("isEmpty: ", myStack.is_empty())
-print("Size: ", myStack.size())
->>>>>>> fe3d8a2f021245269fedb68b917aab8c793f0c36
-    
 
